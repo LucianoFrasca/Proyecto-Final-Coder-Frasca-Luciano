@@ -1,0 +1,351 @@
+
+
+
+/*-------------RESPONSIVE-----------------*/
+@media only screen and (max-width: 550px) {
+    
+      /*-------Home------*/
+      .carrousel{
+          width: 100%;
+      }
+  
+      .models1{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+        padding-top: 3rem;
+    }
+    
+    .text-home{
+        margin-top: 1rem;
+        font-size: 12px;
+    }
+    
+    .tittles-home{
+        font-size: 20px;
+    }
+    
+    .auto-home{
+      width: 100%;
+    }
+    
+    .models2{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+        padding-top: 3rem;
+    }
+    
+  
+      /*--------Catalogo--------*/
+          
+      .card-catalogo{
+          margin-top: 2rem;
+          width: 18rem;
+      }
+      
+      .container-div-car{
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+  
+      .h1{
+          font-size: 30px;
+      }    
+  
+      p{
+          font-size: 15px;
+      }
+   
+      /*-----Contacto------*/
+      
+      .text-contact{
+          font-size: 40px;
+      }
+      
+      .container-contact{
+          flex-direction: column;
+          justify-content: center;
+          padding-top: 4rem;
+      }
+      
+      #card-contact{
+          margin: 0px auto;
+          padding-top: 2rem;
+          padding: 2rem;
+      }
+      
+      .contact-map{
+          height: 300px;
+          margin: 0px auto;
+          width: 75%;
+          margin-top: 2rem;
+          
+      }
+      
+      /* Footer */
+      .pie-contacto{
+          position: relative;
+          margin-top: 2rem;
+      }
+  
+      #footer{
+          text-align: center;
+          padding-top: 5px;
+          padding-bottom: 20px;
+          }
+          #iconos-footer{
+          text-align: center;
+          padding-left: 20px;
+          }
+  }
+  
+  @media (min-width: 551px) and (max-width: 770px) {
+      /*-------Home------*/
+  
+    .carrousel{
+          width: 100%;
+      }
+
+    .models1{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+        padding-top: 3rem;
+    }
+    
+    .text-home{
+        margin-top: 1rem;
+        font-size: 15px;
+    }
+    
+    .tittles-home{
+        font-size: 25px;
+    }
+    
+    .auto-home{
+      width: 100%;
+    }
+    
+    .models2{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+        padding-top: 3rem;
+    }
+    
+  
+       /*--------Catalogo--------*/
+  
+       .container-div-car{
+          flex-direction: column;
+          align-items: center;
+      }
+  
+      .card-catalogo{
+          margin-top: 4rem;
+      }
+  
+      .h1{
+          font-size: 38px;
+      }    
+  
+      p{
+          font-size: 20px;
+      }
+  
+       /*-----Contacto------*/
+      
+       .text-contact{
+          font-size: 40px;
+      }
+      
+      .container-contact{
+          flex-direction: column;
+          justify-content: center;
+          padding-top: 4rem;
+      }
+      
+      #card-contact{
+          margin: 0px auto;
+          padding-top: 2rem;
+          padding: 5rem;
+          width: 80%;
+      }
+      
+      .contact-map{
+          height: 400px;
+          margin: 0px auto;
+          width: 80%;
+          margin-top: 3rem; 
+      }
+  
+      /* Footer */
+      
+      .pie-contacto{
+          position: relative;
+          margin-top: 4rem;
+      }
+     
+      #footer{
+          text-align: center;
+      }
+      #iconos-footer{
+          text-align: center;
+      }
+  
+  }
+  
+  @media (min-width: 771px) and (max-width: 1000px) {  
+      /*-------Home------*/
+  
+    .carrousel{
+          width: 100%;
+      }
+  
+    .models1{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+        padding-top: 3rem;
+    }
+    
+    .text-home{
+        margin-top: 1rem;
+        font-size: 15px;
+    }
+    
+    .tittles-home{
+        font-size: 25px;
+    }
+    
+    .auto-home{
+      width: 100%;
+    }
+    
+    .models2{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+        padding-top: 3rem;
+    }
+    
+  
+       /*--------Catalogo--------*/
+  
+       .container-div-car{
+          align-items: center;
+      }
+  
+      .card-catalogo{
+          margin-top: 2rem;
+      }
+  
+      .h1{
+          font-size: 38px;
+      }    
+  
+      p{
+          font-size: 20px;
+      }
+  
+        /*-----Contacto------*/
+      
+        .text-contact{
+          font-size: 50px;
+      }
+      
+      .container-contact{
+          flex-direction: column;
+          justify-content: center;
+          padding-top: 4rem;
+      }
+      
+      #card-contact{
+          margin: 0px auto;
+          padding-top: 1rem;
+          padding: 5rem;
+          width: 80%;
+      }
+      
+      .contact-map{
+          height: 450px;
+          margin: 0 auto;
+          width: 80%;
+          margin-top: 3rem;
+      }
+  
+      /* Footer */
+     
+      .pie-contacto{
+          position: relative;
+          margin-top: 5rem;
+      }
+      
+      #footer{
+          text-align: center;
+      }
+      #iconos-footer{
+          text-align: center;
+      }
+  }
+  
+  @media (min-width: 1001px) and (max-width: 1200px) {
+         
+      /*-------Home------*/
+  
+      .carrousel{
+          width: 100%;
+      }
+  
+      .models1{
+        gap: 3.5rem;
+      }
+
+      .models2{
+          gap: 3.5rem;
+      }
+     
+  
+       /*-----Contacto------*/
+      
+       .text-contact{
+          font-size: 40px;
+      }
+      
+      .container-contact{
+          flex-direction: column;
+          justify-content: center;
+          padding-top: 4rem;
+      }
+      
+      #card-contact{
+          margin: 0px auto;
+          padding-top: 1rem;
+          padding: 5rem;
+          width: 80%;
+      }
+      
+      .contact-map{
+          height: 500px;
+          margin: 0 auto;
+          width: 80%;
+          margin-top: 3rem;
+      }
+  
+      /* Footer */
+     
+      .pie-contacto{
+          position: relative;
+          margin-top: 7rem;
+      }
+      
+      #footer{
+          text-align: center;
+      }
+      #iconos-footer{
+          text-align: center;
+      }
+  }
+  

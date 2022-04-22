@@ -1,0 +1,43 @@
+/*-----CATALOGO-----*/
+
+.text{
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    border: 2px outset #ffffff;
+    background-color: #000000;
+    color: white;
+}
+
+
+.container-div-car{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-catalogo{
+    width: 25rem;
+}
+
+.card-catalogo:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgb(68, 68, 68);
+}
+
+.h1{
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+

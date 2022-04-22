@@ -1,0 +1,15 @@
+@import 'mixin';
+@import 'header';
+@import 'home';
+@import 'catalogo';
+@import 'contacto';
+@import 'footer';
+@import 'responsive';
+@import 'extends';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

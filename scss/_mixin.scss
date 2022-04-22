@@ -1,0 +1,36 @@
+$celumini:320px;
+$celumedio:370px;
+$celu:550px;
+$tablet:770px;
+$laptop:1000px;
+$compu:1200px;
+
+@mixin headerresponsive ($media) {
+    @if $media == $celu {
+        @media (max-width: $celu) {
+           @content;
+    }
+    } @else if $media == $tablet {
+        @media (max-width: $tablet) {
+            @content;
+    }
+    }
+        @else if $media == $laptop {
+        @media (max-width: $laptop) {
+            @content;
+        } 
+    } @else if $media == $compu{
+        @media  (max-width: $compu){
+            @content;
+        }
+    } @else if $media == $celumini{
+        @media (max-width: $celumini) {
+            @content;
+        }
+    } @else if $media == $celumedio{
+        @media (max-width: $celumedio) {
+            @content;
+        }
+    }
+
+}

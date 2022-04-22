@@ -1,0 +1,598 @@
+.header .navbar > .container, .header .navbar > .container-fluid, .header .navbar > .container-lg, .header .navbar > .container-md, .header .navbar > .container-sm, .header .navbar > .container-xl, .header .navbar > .container-xxl {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header #botonera {
+  background-color: #000;
+  font-size: 23px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0px 10em;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.header #logo {
+  color: #fffefe;
+  font-size: 28px;
+}
+
+.header .items {
+  color: white;
+}
+
+@media (max-width: 370px) {
+  .header #botonera {
+    font-size: 13px;
+  }
+  .header #logo {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header #botonera {
+    font-size: 12px;
+  }
+  .header #logo {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 550px) {
+  .header #botonera {
+    font-size: 15px;
+    padding: 0px 4em;
+  }
+  .header #logo {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .header #logo {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header #logo {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header #botonera {
+    padding: 0px 4em;
+  }
+  .header #logo {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+/*-----HOME-----*/
+.container {
+  margin: 0 auto;
+}
+
+.f-f {
+  font-family: 'Oswald', sans-serif;
+}
+
+.carrousel {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.models1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10rem;
+  padding-top: 5rem;
+}
+
+.text-home {
+  margin-top: 1.5rem;
+  font-size: 15px;
+}
+
+.auto-home {
+  border-radius: 10px;
+}
+
+.models2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10rem;
+  padding-top: 5rem;
+}
+
+/*-----CATALOGO-----*/
+.text {
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  border: 2px outset #ffffff;
+  background-color: #000000;
+  color: white;
+}
+
+.container-div-car {
+  padding-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-catalogo {
+  width: 25rem;
+}
+
+.card-catalogo:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+  -webkit-box-shadow: 0 12px 16px #444444;
+          box-shadow: 0 12px 16px #444444;
+}
+
+.h1 {
+  font-size: 45px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*-----CONTACTO----*/
+.container-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 3rem;
+}
+
+#card-contact {
+  padding-top: 2rem;
+  margin-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contact-map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 1px outset black;
+  width: 25%;
+}
+
+/*-----FOOTER----*/
+.pie-contacto {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer {
+  background-color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+.iconos {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  margin: 5px;
+}
+
+#footer {
+  text-align: left;
+}
+
+.link-coder {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+#iconos-footer {
+  text-align: right;
+}
+
+/*-------------RESPONSIVE-----------------*/
+@media only screen and (max-width: 550px) {
+  /*-------Home------*/
+  .carrousel {
+    width: 100%;
+  }
+  .models1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 0.5rem;
+    padding-top: 3rem;
+  }
+  .text-home {
+    margin-top: 1rem;
+    font-size: 12px;
+  }
+  .tittles-home {
+    font-size: 20px;
+  }
+  .auto-home {
+    width: 100%;
+  }
+  .models2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 0.5rem;
+    padding-top: 3rem;
+  }
+  /*--------Catalogo--------*/
+  .card-catalogo {
+    margin-top: 2rem;
+    width: 18rem;
+  }
+  .container-div-car {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 15px;
+  }
+  /*-----Contacto------*/
+  .text-contact {
+    font-size: 40px;
+  }
+  .container-contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 4rem;
+  }
+  #card-contact {
+    margin: 0px auto;
+    padding-top: 2rem;
+    padding: 2rem;
+  }
+  .contact-map {
+    height: 300px;
+    margin: 0px auto;
+    width: 75%;
+    margin-top: 2rem;
+  }
+  /* Footer */
+  .pie-contacto {
+    position: relative;
+    margin-top: 2rem;
+  }
+  #footer {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+  #iconos-footer {
+    text-align: center;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 770px) {
+  /*-------Home------*/
+  .carrousel {
+    width: 100%;
+  }
+  .models1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 0.5rem;
+    padding-top: 3rem;
+  }
+  .text-home {
+    margin-top: 1rem;
+    font-size: 15px;
+  }
+  .tittles-home {
+    font-size: 25px;
+  }
+  .auto-home {
+    width: 100%;
+  }
+  .models2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 0.5rem;
+    padding-top: 3rem;
+  }
+  /*--------Catalogo--------*/
+  .container-div-car {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card-catalogo {
+    margin-top: 4rem;
+  }
+  .h1 {
+    font-size: 38px;
+  }
+  p {
+    font-size: 20px;
+  }
+  /*-----Contacto------*/
+  .text-contact {
+    font-size: 40px;
+  }
+  .container-contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 4rem;
+  }
+  #card-contact {
+    margin: 0px auto;
+    padding-top: 2rem;
+    padding: 5rem;
+    width: 80%;
+  }
+  .contact-map {
+    height: 400px;
+    margin: 0px auto;
+    width: 80%;
+    margin-top: 3rem;
+  }
+  /* Footer */
+  .pie-contacto {
+    position: relative;
+    margin-top: 4rem;
+  }
+  #footer {
+    text-align: center;
+  }
+  #iconos-footer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 771px) and (max-width: 1000px) {
+  /*-------Home------*/
+  .carrousel {
+    width: 100%;
+  }
+  .models1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 0.5rem;
+    padding-top: 3rem;
+  }
+  .text-home {
+    margin-top: 1rem;
+    font-size: 15px;
+  }
+  .tittles-home {
+    font-size: 25px;
+  }
+  .auto-home {
+    width: 100%;
+  }
+  .models2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 0.5rem;
+    padding-top: 3rem;
+  }
+  /*--------Catalogo--------*/
+  .container-div-car {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card-catalogo {
+    margin-top: 2rem;
+  }
+  .h1 {
+    font-size: 38px;
+  }
+  p {
+    font-size: 20px;
+  }
+  /*-----Contacto------*/
+  .text-contact {
+    font-size: 50px;
+  }
+  .container-contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 4rem;
+  }
+  #card-contact {
+    margin: 0px auto;
+    padding-top: 1rem;
+    padding: 5rem;
+    width: 80%;
+  }
+  .contact-map {
+    height: 450px;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 3rem;
+  }
+  /* Footer */
+  .pie-contacto {
+    position: relative;
+    margin-top: 5rem;
+  }
+  #footer {
+    text-align: center;
+  }
+  #iconos-footer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+  /*-------Home------*/
+  .carrousel {
+    width: 100%;
+  }
+  .models1 {
+    gap: 3.5rem;
+  }
+  .models2 {
+    gap: 3.5rem;
+  }
+  /*-----Contacto------*/
+  .text-contact {
+    font-size: 40px;
+  }
+  .container-contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 4rem;
+  }
+  #card-contact {
+    margin: 0px auto;
+    padding-top: 1rem;
+    padding: 5rem;
+    width: 80%;
+  }
+  .contact-map {
+    height: 500px;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 3rem;
+  }
+  /* Footer */
+  .pie-contacto {
+    position: relative;
+    margin-top: 7rem;
+  }
+  #footer {
+    text-align: center;
+  }
+  #iconos-footer {
+    text-align: center;
+  }
+}
+
+.titulos, .tittles-home {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.tittles-home {
+  padding: 1rem;
+  border: double red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,11 @@
+.titulos{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.tittles-home{
+    @extend .titulos;
+    padding: 1rem;
+    border: double red;
+}
+
